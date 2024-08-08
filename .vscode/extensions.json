@@ -1,0 +1,7 @@
+{
+    "recommendations": [
+        "biomejs.biome",
+        "redhat.vscode-yaml",
+        "bierner.markdown-preview-github-styles",
+    ]
+}
