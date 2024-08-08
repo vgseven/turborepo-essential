@@ -8,7 +8,9 @@
     "./code": "./src/code.tsx"
   },
   "scripts": {
-    "lint": ""
+    "lint": "",
+    "typecheck": "",
+    "format": ""
   },
   "devDependencies": {
     "@repo/typescript-config": "workspace:*",

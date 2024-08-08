@@ -4,11 +4,14 @@
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
-    "lint": "biome lint --write .",
-    "format": "biome format --write ."
+    "typecheck": "turbo typecheck",
+    "lint": "turbo lint",
+    "format": "turbo format",
+    "prepare": "husky"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.8.3",
+    "husky": "^9.1.4",
     "turbo": "^2.0.12"
   },
   "packageManager": "pnpm@9.7.0",
