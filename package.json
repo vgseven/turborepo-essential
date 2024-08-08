@@ -4,10 +4,11 @@
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
-    "lint": "turbo lint",
-    "format": ""
+    "lint": "biome lint --write .",
+    "format": "biome format --write ."
   },
   "devDependencies": {
+    "@biomejs/biome": "^1.8.3",
     "turbo": "^2.0.12"
   },
   "packageManager": "pnpm@9.7.0",
