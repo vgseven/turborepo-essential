@@ -2,24 +2,28 @@
   "name": "@repo/ui",
   "version": "0.0.0",
   "private": true,
+  "type": "module",
   "exports": {
-    "./button": "./src/button.tsx",
-    "./card": "./src/card.tsx",
-    "./code": "./src/code.tsx"
-  },
-  "scripts": {
-    "lint": "",
-    "typecheck": "",
-    "format": ""
+    ".": {
+      "import": "./src/index.ts",
+      "types": "./src/index.ts"
+    }
   },
   "devDependencies": {
-    "@repo/typescript-config": "workspace:*",
-    "@types/node": "^22.1.0",
-    "@types/react": "^18.3.3",
+    "@repo/tailwind-config": "workspace:*",
+    "@repo/ts-config": "workspace:*",
+    "@types/node": "^22.7.4",
+    "@types/react": "^18.3.11",
     "@types/react-dom": "^18.3.0",
-    "typescript": "^5.5.4"
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13",
+    "typescript": "^5.6.2"
   },
   "dependencies": {
+    "@repo/lib": "workspace:*",
+    "@radix-ui/react-label": "^2.1.0",
+    "class-variance-authority": "^0.7.0",
     "react": "^18.3.1"
   }
 }

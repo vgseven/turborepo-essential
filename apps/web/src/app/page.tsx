@@ -1,9 +1,9 @@
 export default function Home() {
   return (
     <main
-      className={"h-screen relative flex flex-col justify-center items-center"}
+      className={"relative flex h-screen flex-col items-center justify-center"}
     >
-      <h1 className={"text-3xl font-semibold tracking-tighter"}>
+      <h1 className={"font-semibold text-3xl tracking-tighter"}>
         Next Essential
       </h1>
       <p className={"my-4 max-w-[44rem] text-center"}>

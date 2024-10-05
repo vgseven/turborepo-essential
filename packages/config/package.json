@@ -1,9 +1,0 @@
-{
-    "name": "@repo/config",
-    "private": true,
-    "version": "0.0.0",
-    "license": "MIT",
-    "publishConfig": {
-        "access": "public"
-    }
-}
