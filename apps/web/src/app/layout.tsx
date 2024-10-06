@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
 import "@/styles/root-layout.css";
 import { fonts } from "@/lib/fonts";
+import { cn } from "@repo/lib";
 
 export const metadata: Metadata = {
-  title: "Next Essential",
+  title: "Turborepo Essential",
   description:
-    "Next.js Essential Starter Template to start your next next.js project",
+    "Turborepo Essential Starter Template to start your next Turborepo project.",
   icons: {
     icon: "favicon.png",
   },
@@ -19,7 +20,11 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${fonts.GeistSans.variable} ${fonts.GeistMono.variable} font-geistMono`}
+      className={cn(
+        fonts.GeistSans.variable,
+        fonts.GeistMono.variable,
+        "font-geistMono"
+      )}
     >
       <body>{children}</body>
     </html>

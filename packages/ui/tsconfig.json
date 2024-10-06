@@ -1,5 +1,5 @@
 {
   "extends": "@repo/ts-config/react",
-  "include": ["./src/**/*.ts", "./src/**/*.tsx"],
+  "include": ["."],
   "exclude": ["node_modules", "dist"]
 }
