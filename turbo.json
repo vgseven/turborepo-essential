@@ -8,8 +8,9 @@
       "outputs": [".next/**", "!.next/cache/**"]
     },
     "typecheck": {
-      "cache": false,
-      "dependsOn": ["^typecheck"]
+      "cache": true,
+      "dependsOn": ["^typecheck"],
+      "outputs": ["tsconfig.tsbuildinfo"]
     },
     "dev": {
       "cache": false,
